@@ -1,0 +1,51 @@
+.game {
+  &__cards {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  &__card {
+    background: #0f2027;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    font-size: 24px;
+    cursor: pointer;
+    &::before {
+      content: '';
+      display: block;
+      margin-bottom: 20px;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+    &.TheWitch-kingofAngmar::before {
+      background-image: url(../../images/witch-king.jpg);
+    }
+    &.TheDarkMarshal::before {
+      background-image: url(../../images/dark-marshall.webp);
+    }
+    &.KhamûlTheEasterling::before {
+      background-image: url(../../images/khamul.webp);
+    }
+    &.TheBetrayer::before {
+      background-image: url(../../images/the-betrayer.jpg);
+    }
+    &.TheShadowLord::before {
+      background-image: url(../../images/shadow-lord.webp);
+    }
+    &.TheUndying::before {
+      background-image: url(../../images/undying.jpg);
+    }
+    &.TheTainted::before {
+      background-image: url(../../images/Tainted.webp);
+    }
+    &.TheKnightofUmbar::before {
+      background-image: url(../../images/knight-of-umbar.webp);
+    }
+    &.TheDwimmerlaik::before {
+      background-image: url(../../images/Dwimmerlaik.jpg);
+    }
+  }
+}
