@@ -1,7 +1,7 @@
 @import "~normalize.css";
-@import 'variables.scss';
-@import 'components/rules.scss';
-@import 'components/cards.scss';
+@import "variables.scss";
+@import "components/rules.scss";
+@import "components/cards.scss";
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 .App {
   color: #fff;
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -17,7 +17,7 @@
 
 .game {
   &__navbar {
-  background: #0f2027;
+    background: #0f2027;
     display: flex;
     justify-content: space-between;
     padding: 30px 50px;
@@ -26,8 +26,11 @@
     margin: 0;
     font-size: 50px;
   }
+  &__scores {
+    text-align: right;
+  }
   &__score {
-    font-size: 25px;
+    font-size: 35px;
   }
   &__main {
     background: #0f2027;
@@ -36,6 +39,4 @@
     flex: 1 1 0;
     padding: 30px;
   }
-  
-
 }
