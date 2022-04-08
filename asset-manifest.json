@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.071b1ae6.css",
+    "main.js": "./static/js/main.94654c22.js",
+    "static/media/witch-king.jpg": "./static/media/witch-king.33c5ef04e08ba2665167.jpg",
+    "static/media/undying.jpg": "./static/media/undying.dcbdd8add6c306a68198.jpg",
+    "static/media/Dwimmerlaik.jpg": "./static/media/Dwimmerlaik.3d2bc8cf8c2c17048c2c.jpg",
+    "static/media/khamul.webp": "./static/media/khamul.4cf439cf02f0be68c5ba.webp",
+    "static/media/the-betrayer.jpg": "./static/media/the-betrayer.b322a1306d2234db4be7.jpg",
+    "static/media/knight-of-umbar.webp": "./static/media/knight-of-umbar.8b387cc2bacaa4f0a7e6.webp",
+    "static/media/dark-marshall.webp": "./static/media/dark-marshall.e63efc55c4aa986da7cb.webp",
+    "static/media/shadow-lord.webp": "./static/media/shadow-lord.2d173de339ce7b1eddc6.webp",
+    "static/media/Tainted.webp": "./static/media/Tainted.bcbf6e5fa3320f9a5ba5.webp",
+    "index.html": "./index.html",
+    "main.071b1ae6.css.map": "./static/css/main.071b1ae6.css.map",
+    "main.94654c22.js.map": "./static/js/main.94654c22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.071b1ae6.css",
+    "static/js/main.94654c22.js"
+  ]
+}
